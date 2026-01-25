@@ -1,3 +1,9 @@
+![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&pause=1000&color=FF79C6&center=true&vCenter=true&width=435&lines=Hello+World!;Embedded+Systems+Dev;Love+Open+Source;Coffee+%26+Code)
+
+![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&pause=1000&color=FF79C6&center=true&vCenter=true&width=435&lines=C+C%2B%2B+C%23+ADEDA+JLCEDA+AI)
+
+![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&pause=1000&color=FF79C6&center=true&vCenter=true&width=435&lines=AT32+STM32+ESP32+CH579)
+
 <details open>
   <summary>:star2: Github Stats</summary>
   <a href="https://github.com/anuraghazra/github-readme-stats" target="_blank">
@@ -12,7 +18,7 @@
   </a>
 </details>
 
-<details>
+<details open>
   <summary>:snake: Grid Snake</summary>
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/MaxMadcc/MaxMadcc/output/github-contribution-grid-snake-dark.svg">
