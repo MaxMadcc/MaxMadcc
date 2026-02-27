@@ -1,6 +1,8 @@
-![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&pause=1000&color=FF79C6&center=true&vCenter=true&width=435&lines=Hello+World!;Embedded+Systems+Dev;Love+Open+Source;Coffee+%26+Code)
+![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&pause=1000&color=FF79C6&center=true&vCenter=true&width=435&lines=Hello+World!;Coffee+%26+Code)
+<!-- 
 ![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&pause=1000&color=FF79C6&center=true&vCenter=true&width=435&lines=C+C%2B%2B+C%23+ADEDA+JLCEDA+AI)
 ![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&pause=1000&color=FF79C6&center=true&vCenter=true&width=435&lines=AT32+STM32+ESP32+CH579)
+-->
 
 <details open>
   <summary>:star2: Github Stats</summary>
