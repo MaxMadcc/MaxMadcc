@@ -31,7 +31,7 @@ jobs:
         uses: crazy-max/ghaction-github-pages@v3.1.0
         with:
           # 推送到名为 output 的分支
-          target_branch: output
+          target_branch: output_readme_stats
           # 从 dist 目录读取文件
           build_dir: profile
         env:
