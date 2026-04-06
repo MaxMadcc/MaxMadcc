@@ -23,7 +23,7 @@ jobs:
           card: stats
           # 关键点：指定输出目录
           output_dir: dist 
-          options: username=${{ github.repository_owner }}&show_icons=true
+          options: username=${{ github.repository_owner }}&show_icons=true&hide_border=true&hide=contribs&theme=dracula
           # 注意：这里去掉了 path 和 token，因为不再直接操作 Git
           # token: ${{ secrets.GITHUB_TOKEN }}
 
@@ -34,6 +34,6 @@ jobs:
           # 推送到名为 output 的分支
           target_branch: output
           # 从 dist 目录读取文件
-          build_dir: ./dist
+          build_dir: profile
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
