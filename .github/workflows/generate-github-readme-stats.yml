@@ -1,0 +1,39 @@
+name: Update README cards
+
+on:
+  schedule:
+    - cron: "0 3 * * *" # 每天凌晨3点运行
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    # 需要写入权限才能推送页面
+    permissions: 
+      contents: write
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      # 第一步：生成卡片，但不要提交到 Git，而是输出到 dist/ 文件夹
+      - name: Generate stats card
+        uses: readme-tools/github-readme-stats-action@v1
+        with:
+          card: stats
+          # 关键点：指定输出目录
+          output_dir: dist 
+          options: username=${{ github.repository_owner }}&show_icons=true
+          # 注意：这里去掉了 path 和 token，因为不再直接操作 Git
+          # token: ${{ secrets.GITHUB_TOKEN }}
+
+      # 第二步：将 dist/ 文件夹中的内容推送到 output 分支
+      - name: Deploy to output branch
+        uses: crazy-max/ghaction-github-pages@v3.1.0
+        with:
+          # 推送到名为 output 的分支
+          target_branch: output
+          # 从 dist 目录读取文件
+          build_dir: dist 
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
