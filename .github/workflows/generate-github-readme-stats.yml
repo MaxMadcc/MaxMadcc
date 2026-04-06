@@ -21,12 +21,11 @@ jobs:
         uses: readme-tools/github-readme-stats-action@v1
         with:
           card: stats
-          # 关键点：指定输出目录
-          output_dir: dist 
           options: username=${{ github.repository_owner }}&show_icons=true&hide_border=true&hide=contribs&theme=dracula
           # 注意：这里去掉了 path 和 token，因为不再直接操作 Git
           # token: ${{ secrets.GITHUB_TOKEN }}
-
+          # 输出目录 /home/runner/work/$USERNAME/$USERNAME/profile/stats.svg
+          
       # 第二步：将 dist/ 文件夹中的内容推送到 output 分支
       - name: Deploy to output branch
         uses: crazy-max/ghaction-github-pages@v3.1.0
