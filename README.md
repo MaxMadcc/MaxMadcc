@@ -7,7 +7,7 @@
 <details open>
   <summary>:star2: Github Stats</summary>
   <a href="https://github.com/anuraghazra/github-readme-stats" target="_blank">
-    <img alt="MaxMadcc's Github Stats" src="https://raw.githubusercontent.com/MaxMadcc/MaxMadcc/output/stats.svg" />
+    <img alt="MaxMadcc's Github Stats" src="https://raw.githubusercontent.com/MaxMadcc/MaxMadcc/output_readme_stats/stats.svg" />
   </a>
 </details>
 
@@ -21,8 +21,8 @@
 <details open>
   <summary>:snake: Grid Snake</summary>
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/MaxMadcc/MaxMadcc/output/github-contribution-grid-snake-dark.svg">
-    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/MaxMadcc/MaxMadcc/output/github-contribution-grid-snake.svg">
-    <img alt=":snake" src="https://raw.githubusercontent.com/MaxMadcc/MaxMadcc/output/github-contribution-grid-snake.svg" />
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/MaxMadcc/MaxMadcc/output_snake/github-contribution-grid-snake-dark.svg">
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/MaxMadcc/MaxMadcc/output_snake/github-contribution-grid-snake.svg">
+    <img alt=":snake" src="https://raw.githubusercontent.com/MaxMadcc/MaxMadcc/output_snake/github-contribution-grid-snake.svg" />
   </picture>
 </details>
