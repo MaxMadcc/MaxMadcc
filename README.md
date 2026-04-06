@@ -7,7 +7,7 @@
 <details open>
   <summary>:star2: Github Stats</summary>
   <a href="https://github.com/anuraghazra/github-readme-stats" target="_blank">
-    <img alt="MaxMadcc's Github Stats" src="https://github-readme-stats.vercel.app/api?username=MaxMadcc&show_icons=true&hide_border=true&hide=contribs&theme=dracula" />
+    <img alt="MaxMadcc's Github Stats" src="https://raw.githubusercontent.com/MaxMadcc/MaxMadcc/output/stats.svg" />
   </a>
 </details>
 
