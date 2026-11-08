@@ -18,7 +18,7 @@ jobs:
 
       # 第一步：生成卡片，但不要提交到 Git，而是输出到 dist/ 文件夹
       - name: Generate stats card
-        uses: readme-tools/github-readme-stats-action@v1
+        uses: stats-organization/github-readme-stats-action@v2
         with:
           card: stats
           options: username=${{ github.repository_owner }}&show_icons=true&hide_border=true&hide=contribs&theme=dracula
